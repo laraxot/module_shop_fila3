@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use $MODULE_NAMESPACE$\Shop\$CONTROLLER_NAMESPACE$\ShopController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,8 @@ use $MODULE_NAMESPACE$\Shop\$CONTROLLER_NAMESPACE$\ShopController;
 |
 */
 
+/*
 Route::group([], function () {
     Route::resource('shop', ShopController::class)->names('shop');
 });
+*/
