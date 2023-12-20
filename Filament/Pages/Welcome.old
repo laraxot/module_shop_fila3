@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\Shop\Filament\Pages;
+
+use Filament\Pages\Page;
+use Filament\Panel;
+
+class Welcome extends Page
+{
+    public static ?string $label = 'Custom Navigation Label';
+
+    public static ?string $slug = 'test';
+
+    public static ?string $title = 'Pagina Custom Test';
+    protected static ?string $navigationIcon = 'heroicon-o-document-text';
+
+    protected static string $view = 'filament.pages.welcome';
+
+    public function panel(Panel $panel): Panel
+    {
+        return $panel->navigation(false);
+    }
+}

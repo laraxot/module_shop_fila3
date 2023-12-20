@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\Shop\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use VanOns\Laraberg\Traits\RendersContent;
+
+class GuttenbergPage extends Model
+{
+    use HasFactory;
+
+    use RendersContent;
+
+    /**
+     * @var string
+     */
+    protected $connection = 'shop';
+
+    protected $fillable = ['content'];
+}
