@@ -1,0 +1,49 @@
+{
+    "name": "laraxot/module_shop_fila3",
+    "description": "xot module, heart of the laraxot repository",
+    "keywords": [
+
+    ],
+    "homepage": "https://github.com/laraxot/module_shop_fila3.git",
+    "license": "MIT",
+    "authors": [{
+        "name": "marco sottana",
+        "email": "marco.sottana@gmail.com",
+        "role": "Developer"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Shop\\": "",
+            "Modules\\Shop\\App\\": "app/",
+            "Modules\\Shop\\Database\\Factories\\": "database/factories/",
+            "Modules\\Shop\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Shop\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../Xot"
+        },
+        {
+            "type": "path",
+            "url": "../Tenant"
+        },
+        {
+            "type": "path",
+            "url": "../UI"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\Shop\Models;
+
+use Illuminate\Database\Eloquent\Relations\MorphPivot;
+
+class TeamMorph extends MorphPivot
+{
+}
