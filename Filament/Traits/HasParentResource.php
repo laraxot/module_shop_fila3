@@ -25,7 +25,7 @@ trait HasParentResource
             $this->parent = $parentResource::resolveRecordRouteBinding($parent);
 
             if (! $this->parent) {
-                throw new ModelNotFoundException;
+                throw new ModelNotFoundException();
             }
         }
     }

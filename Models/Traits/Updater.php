@@ -21,7 +21,7 @@ trait Updater
          */
         static::creating(
             function ($model) {
-                if (auth()->user() !== null) {
+                if (null !== auth()->user()) {
                     $model->created_by = auth()->user()->handle ?? '';
                     $model->updated_by = auth()->user()->handle ?? '';
                 }
