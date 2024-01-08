@@ -79,6 +79,7 @@ class Profile extends BaseModel implements ModelProfileContract
     // use PrivacyTrait;
     use HasFactory;
     use HasRoles;
+
     // use GeoTrait;
     // use HasProfileTrait;
     use IsProfileTrait;
