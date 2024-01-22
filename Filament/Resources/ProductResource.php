@@ -40,8 +40,8 @@ class ProductResource extends NestedResource
                 Forms\Components\Textarea::make('description')
                     ->maxLength(65535)
                     ->columnSpanFull(),
-                Forms\Components\TextInput::make('weight')->default(0)->required(),
-                Forms\Components\TextInput::make('price')
+                TextInput::make('weight')->default(0)->required(),
+                TextInput::make('price')
                     ->numeric()
                     ->prefix('€'),
                 // CuratorPicker::make('featured_image_id')
