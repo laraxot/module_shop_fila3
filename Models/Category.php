@@ -65,10 +65,10 @@ class Category extends BaseModel
         'sort_when_creating' => true,
     ];
 
-    public function featuredImage(): BelongsTo
-    {
-        return $this->belongsTo(Media::class, 'featured_image_id', 'id');
-    }
+    //public function featuredImage(): BelongsTo
+    //{
+    //    return $this->belongsTo(Media::class, 'featured_image_id', 'id');
+    //}
 
     public function products(): MorphToMany
     {
