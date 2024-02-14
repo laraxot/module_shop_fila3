@@ -56,7 +56,7 @@ abstract class BaseMorphPivot extends MorphPivot
     /**
      * The accessors to append to the model's array form.
      *
-     * @var array
+     * @var array<int, string>
      */
     protected $appends = [];
 
