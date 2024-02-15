@@ -16,6 +16,7 @@ namespace Modules\Shop\Models;
  * @property string                          $telephone_number
  * @property string|null                     $allergens
  * @property int|null                        $user_id
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Reservation   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Reservation   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Reservation   query()
@@ -29,6 +30,7 @@ namespace Modules\Shop\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Reservation   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Reservation   whereUserId($value)
  * @method static \Modules\Shop\Database\Factories\ReservationFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 class Reservation extends BaseModel

@@ -25,6 +25,7 @@ use Spatie\EloquentSortable\SortableTrait;
  * @property string                                                                      $action_text
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Shop\Models\Product> $products
  * @property int|null                                                                    $products_count
+ *
  * @method static \Modules\Shop\Database\Factories\CategoryFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Category   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Category   newQuery()
@@ -38,6 +39,7 @@ use Spatie\EloquentSortable\SortableTrait;
  * @method static \Illuminate\Database\Eloquent\Builder|Category   whereOrderColumn($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Category   whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Category   whereUpdatedAt($value)
+ *
  * @mixin \Eloquent
  */
 class Category extends BaseModel

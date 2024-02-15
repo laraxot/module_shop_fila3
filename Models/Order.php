@@ -23,6 +23,7 @@ use Modules\Shop\Models\Traits\HasAddresses;
  * @property int|null                                                                        $products_count
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Quaeris\Models\Customer> $teams
  * @property int|null                                                                        $teams_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Order   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Order   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Order   query()
@@ -31,6 +32,7 @@ use Modules\Shop\Models\Traits\HasAddresses;
  * @method static \Illuminate\Database\Eloquent\Builder|Order   whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Order   whereUpdatedAt($value)
  * @method static \Modules\Shop\Database\Factories\OrderFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 class Order extends BaseModel

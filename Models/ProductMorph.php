@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string|null                     $option
  * @property string|null                     $type
  * @property Category|null                   $category
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|ProductMorph   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ProductMorph   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|ProductMorph   query()
@@ -32,6 +33,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|ProductMorph   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|ProductMorph   whereUserId($value)
  * @method static \Modules\Shop\Database\Factories\ProductMorphFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 class ProductMorph extends BaseMorphPivot

@@ -33,6 +33,7 @@ use Spatie\Permission\Traits\HasRoles;
  * @property Collection<int, Role>                             $roles
  * @property int|null                                          $roles_count
  * @property User|null                                         $user
+ *
  * @method static CachedBuilder|Profile                                  all($columns = [])
  * @method static CachedBuilder|Profile                                  avg($column)
  * @method static CachedBuilder|Profile                                  cache(array $tags = [])
@@ -56,11 +57,13 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static CachedBuilder|Profile                                  sum($column)
  * @method static CachedBuilder|Profile                                  truncate()
  * @method static \GeneaLabs\LaravelModelCaching\CachedBuilder|BaseModel withCacheCooldownSeconds(?int $seconds = null)
+ *
  * @property int                             $id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereFirstName($value)
@@ -68,6 +71,7 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereLastName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUpdatedBy($value)
+ *
  * @mixin \Eloquent
  */
 class Profile extends BaseModel implements ModelProfileContract

@@ -14,6 +14,7 @@ namespace Modules\Shop\Models;
  * @property string                          $email
  * @property string                          $phone
  * @property string                          $address
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Customer   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Customer   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Customer   query()
@@ -25,6 +26,7 @@ namespace Modules\Shop\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Customer   wherePhone($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Customer   whereUpdatedAt($value)
  * @method static \Modules\Shop\Database\Factories\CustomerFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 class Customer extends BaseModel

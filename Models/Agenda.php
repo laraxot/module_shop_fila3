@@ -18,6 +18,7 @@ namespace Modules\Shop\Models;
  * @property string|null                     $note
  * @property string                          $link
  * @property int|null                        $user_id
+ *
  * @method static \Modules\Shop\Database\Factories\AgendaFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Agenda   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Agenda   newQuery()
@@ -33,6 +34,7 @@ namespace Modules\Shop\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Agenda   whereStartDate($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Agenda   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Agenda   whereUserId($value)
+ *
  * @mixin \Eloquent
  */
 class Agenda extends BaseModel

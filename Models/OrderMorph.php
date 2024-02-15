@@ -16,6 +16,7 @@ use Illuminate\Database\Eloquent\Relations\MorphPivot;
  * @property int|null                        $model_id
  * @property int                             $order_id
  * @property int|null                        $user_id
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph query()
@@ -26,6 +27,7 @@ use Illuminate\Database\Eloquent\Relations\MorphPivot;
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph whereOrderId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|OrderMorph whereUserId($value)
+ *
  * @mixin \Eloquent
  */
 class OrderMorph extends MorphPivot
