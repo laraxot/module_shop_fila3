@@ -53,7 +53,6 @@ use Webmozart\Assert\Assert;
  * @property int|null                                                                        $teams_count
  * @property \Illuminate\Database\Eloquent\Collection<int, Product>                          $variations
  * @property int|null                                                                        $variations_count
- *
  * @method static Builder|Product                                 newModelQuery()
  * @method static Builder|Product                                 newQuery()
  * @method static Builder|Product                                 ofCategory(string $parent)
@@ -72,7 +71,6 @@ use Webmozart\Assert\Assert;
  * @method static Builder|Product                                 whereUserId($value)
  * @method static Builder|Product                                 whereWeight($value)
  * @method static \Modules\Shop\Database\Factories\ProductFactory factory($count = null, $state = [])
- *
  * @mixin \Eloquent
  */
 class Product extends BaseModel

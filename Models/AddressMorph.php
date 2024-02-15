@@ -11,7 +11,6 @@ namespace Modules\Shop\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|AddressMorph   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AddressMorph   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|AddressMorph   query()
- *
  * @mixin \Eloquent
  */
 class AddressMorph extends BaseMorphPivot

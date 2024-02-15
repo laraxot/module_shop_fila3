@@ -15,7 +15,6 @@ namespace Modules\Shop\Models;
  * @property string|null                     $zone
  * @property float|null                      $x
  * @property float|null                      $y
- *
  * @method static \Illuminate\Database\Eloquent\Builder|Table   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Table   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Table   query()
@@ -28,7 +27,6 @@ namespace Modules\Shop\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Table   whereY($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Table   whereZone($value)
  * @method static \Modules\Shop\Database\Factories\TableFactory factory($count = null, $state = [])
- *
  * @mixin \Eloquent
  */
 class Table extends BaseModel
