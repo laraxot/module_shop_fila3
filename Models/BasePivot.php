@@ -24,18 +24,14 @@ abstract class BasePivot extends Pivot
      */
     public static $snakeAttributes = true;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     public $incrementing = true;
-
+    /** @var int */
     protected $perPage = 30;
 
     // use Searchable;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $connection = 'shop';
 
     /**
@@ -48,9 +44,7 @@ abstract class BasePivot extends Pivot
      */
     protected $appends = [];
 
-    /**
-     * @var array<string, string>
-     */
+    /** @var array<string, string> */
     protected $casts = [
         'id' => 'string', // must be string else primary key of related model will be typed as int
         'created_at' => 'datetime',

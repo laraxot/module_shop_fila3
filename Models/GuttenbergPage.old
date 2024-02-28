@@ -14,9 +14,7 @@ class GuttenbergPage extends Model
 
     use RendersContent;
 
-    /**
-     * @var string
-     */
+    /**  @var string */
     protected $connection = 'shop';
 
     protected $fillable = ['content'];

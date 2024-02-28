@@ -30,26 +30,18 @@ abstract class BaseModel extends Model
      */
     public static $snakeAttributes = true;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     public $incrementing = true;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     public $timestamps = true;
-
+    /** @var int */
     protected $perPage = 30;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $connection = 'shop';
 
-    /**
-     * @var array<string, string>
-     */
+    /** @var array<string, string> */
     protected $casts = [
         'published_at' => 'datetime',
         'created_at' => 'datetime',
@@ -65,9 +57,7 @@ abstract class BaseModel extends Model
      */
     protected $appends = [];
 
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $primaryKey = 'id';
 
     /**

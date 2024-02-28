@@ -32,8 +32,6 @@ use Illuminate\Database\Eloquent\Relations\MorphPivot;
  */
 class OrderMorph extends MorphPivot
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $connection = 'shop';
 }

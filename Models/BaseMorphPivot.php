@@ -20,14 +20,10 @@ abstract class BaseMorphPivot extends MorphPivot
 
     // use HasUuids;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     public $incrementing = true;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     public $timestamps = true;
 
     /**
@@ -45,9 +41,7 @@ abstract class BaseMorphPivot extends MorphPivot
      */
     protected $perPage = 30;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $connection = 'shop';
 
     /**
@@ -60,9 +54,7 @@ abstract class BaseMorphPivot extends MorphPivot
      */
     protected $appends = [];
 
-    /**
-     * @var string
-     */
+    /** @var string */
     protected $primaryKey = 'id';
 
     /**
@@ -76,9 +68,7 @@ abstract class BaseMorphPivot extends MorphPivot
         'note',
     ];
 
-    /**
-     * @var array<string, string>
-     */
+    /** @var array<string, string> */
     protected $casts = ['created_at' => 'datetime', 'updated_at' => 'datetime',
         'deleted_at' => 'datetime',
     ];

@@ -34,8 +34,6 @@ class Page extends ModelsPage
 
     use HasTeams;
 
-    /**
-     * @var string
-     */
+    /**  @var string */
     protected $connection = 'shop';
 }
