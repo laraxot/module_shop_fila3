@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\Shop\Models;
+
+use App\Models\Traits\HasTeams;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Spatie\Permission\Models\Role as ModelsRole;
+
+class Role extends ModelsRole
+{
+    use HasFactory;
+
+    use HasTeams;
+}
