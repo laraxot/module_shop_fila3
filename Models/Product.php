@@ -29,7 +29,7 @@ use Webmozart\Assert\Assert;
  * @property string                                                                          $weight
  * @property \Illuminate\Database\Eloquent\Collection<int, Product>                          $allergens
  * @property int|null                                                                        $allergens_count
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Shop\Models\Category>    $categories
+ * @property \Illuminate\Database\Eloquent\Collection<int, Category>                         $categories
  * @property int|null                                                                        $categories_count
  * @property \Modules\Quaeris\Models\Customer|null                                           $currentTeam
  * @property Media|null                                                                      $featuredImage

@@ -12,19 +12,19 @@ use Spatie\EloquentSortable\SortableTrait;
 /**
  * Modules\Shop\Models\Category.
  *
- * @property int                                                                         $id
- * @property \Illuminate\Support\Carbon|null                                             $created_at
- * @property \Illuminate\Support\Carbon|null                                             $updated_at
- * @property string                                                                      $name
- * @property string                                                                      $slug
- * @property int|null                                                                    $order_column
- * @property int|null                                                                    $featured_image_id
- * @property bool                                                                        $is_hidden
- * @property Media|null                                                                  $featuredImage
- * @property string                                                                      $action
- * @property string                                                                      $action_text
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Shop\Models\Product> $products
- * @property int|null                                                                    $products_count
+ * @property int                                                    $id
+ * @property \Illuminate\Support\Carbon|null                        $created_at
+ * @property \Illuminate\Support\Carbon|null                        $updated_at
+ * @property string                                                 $name
+ * @property string                                                 $slug
+ * @property int|null                                               $order_column
+ * @property int|null                                               $featured_image_id
+ * @property bool                                                   $is_hidden
+ * @property Media|null                                             $featuredImage
+ * @property string                                                 $action
+ * @property string                                                 $action_text
+ * @property \Illuminate\Database\Eloquent\Collection<int, Product> $products
+ * @property int|null                                               $products_count
  *
  * @method static \Modules\Shop\Database\Factories\CategoryFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Category   newModelQuery()

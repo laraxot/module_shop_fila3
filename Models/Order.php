@@ -14,12 +14,12 @@ use Modules\Shop\Models\Traits\HasAddresses;
  * @property \Illuminate\Support\Carbon|null                                                 $created_at
  * @property \Illuminate\Support\Carbon|null                                                 $updated_at
  * @property string|null                                                                     $delivery_date
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Shop\Models\Address>     $addresses
+ * @property \Illuminate\Database\Eloquent\Collection<int, Address>                          $addresses
  * @property int|null                                                                        $addresses_count
  * @property \Modules\Quaeris\Models\Customer|null                                           $currentTeam
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Quaeris\Models\Customer> $ownedTeams
  * @property int|null                                                                        $owned_teams_count
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Shop\Models\Product>     $products
+ * @property \Illuminate\Database\Eloquent\Collection<int, Product>                          $products
  * @property int|null                                                                        $products_count
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\Quaeris\Models\Customer> $teams
  * @property int|null                                                                        $teams_count
